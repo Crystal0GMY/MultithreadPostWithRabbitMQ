@@ -7,6 +7,7 @@ import java.nio.file.*;
 
 public class MultithreadClient {
   private static final String SERVER_URL = "http://ServletLoadBalancer-1316451551.us-west-2.elb.amazonaws.com:8080/Assignment2_war";
+//private static final String SERVER_URL = "http://35.84.113.6:8080/Assignment2_war";
   private static final String LOG_FILE = "request_logs.csv";
   private static final int TOTAL_REQUESTS = 200000;
   private static final int INITIAL_THREAD_COUNT = 32;
